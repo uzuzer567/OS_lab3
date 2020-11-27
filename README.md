@@ -15,18 +15,31 @@
 5. Make client;
 
 git clone https://github.com/uzuzer567/OS_lab3.git
+
 cd OS_lab3/maths
+
 cmake CMakeLists.txt
+
 make
+
 ./maths maths.x
+
 cp maths.h maths_client.cpp ../client
+
 cp maths.h maths_server.cpp ../server
+
 cd ../server
+
 [edit maths_server.cpp if needed]
+
 cmake CMakeLists.txt
+
 make
+
 cd ../client
+
 cmake CMakeLists.txt
+
 make
 
 # Запуск
